@@ -1,0 +1,12 @@
+classmates = ('Michael', 'Bob', 'Tracy')
+print("classmates =", classmates)
+print('classmates[0] =',classmates[0])
+t = ()
+print("t =", t)
+t = (1)
+print("t =", t)
+t = (1,)
+print("t =", t)
+t = ('a', 'b', ['A', 'B'])
+t[2][0]='X'
+print("t =", t)
